@@ -8,6 +8,7 @@ import CreateOrder, {
 import Cart from './features/cart/Cart.jsx';
 import Order, { loader as orderLoader } from './features/order/Order.jsx';
 import AppLayout from './ui/AppLayout.jsx';
+import './index.css';
 
 const router = createBrowserRouter([
   {
